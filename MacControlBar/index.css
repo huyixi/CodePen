@@ -1,0 +1,56 @@
+.mac-button {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.mac-close {
+  background: #ff5c5c;
+  border: 1px solid #e33e41;
+}
+
+.button-icon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  line-height: 14px;
+  color: black;
+}
+
+.mac-button:hover .button-icon {
+  display: block;
+}
+
+.mac-minimize {
+  background: #ffbd4c;
+  border: 1px solid #e09e3e;
+
+}
+
+.mac-zoom {
+  background: #00ca56;
+  border: 1px solid #14ae46;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.triangle-left {
+  border-color: black transparent transparent black;
+  transform: translate(-20%, 30%);
+}
+
+.triangle-right {
+  border-color: transparent black black transparent;
+  transform: translate(30%, -20%);
+}
